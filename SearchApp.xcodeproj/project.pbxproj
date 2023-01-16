@@ -12,6 +12,8 @@
 		CC24D7982975987B0002ED9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC24D7972975987B0002ED9C /* Assets.xcassets */; };
 		CC24D79B2975987B0002ED9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC24D79A2975987B0002ED9C /* Preview Assets.xcassets */; };
 		CC24D7A22975A8DC0002ED9C /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24D7A12975A8DC0002ED9C /* UserObject.swift */; };
+		CC4A27802975D4B6009A0C08 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A277F2975D4B6009A0C08 /* UserModel.swift */; };
+		CC4A27822975D4D4009A0C08 /* services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A27812975D4D4009A0C08 /* services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		CC24D7972975987B0002ED9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC24D79A2975987B0002ED9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC24D7A12975A8DC0002ED9C /* UserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		CC4A277F2975D4B6009A0C08 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CC4A27812975D4D4009A0C08 /* services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				CC24D7972975987B0002ED9C /* Assets.xcassets */,
 				CC24D7992975987B0002ED9C /* Preview Content */,
 				CC24D7A12975A8DC0002ED9C /* UserObject.swift */,
+				CC4A277F2975D4B6009A0C08 /* UserModel.swift */,
+				CC4A27812975D4D4009A0C08 /* services.swift */,
 			);
 			path = SearchApp;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4A27822975D4D4009A0C08 /* services.swift in Sources */,
 				CC24D7962975987A0002ED9C /* ContentView.swift in Sources */,
 				CC24D7942975987A0002ED9C /* SearchAppApp.swift in Sources */,
+				CC4A27802975D4B6009A0C08 /* UserModel.swift in Sources */,
 				CC24D7A22975A8DC0002ED9C /* UserObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
