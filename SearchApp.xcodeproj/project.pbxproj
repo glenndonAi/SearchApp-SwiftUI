@@ -14,6 +14,8 @@
 		CC24D7A22975A8DC0002ED9C /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24D7A12975A8DC0002ED9C /* UserObject.swift */; };
 		CC4A27802975D4B6009A0C08 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A277F2975D4B6009A0C08 /* UserModel.swift */; };
 		CC4A27822975D4D4009A0C08 /* services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A27812975D4D4009A0C08 /* services.swift */; };
+		CCDC9F312975E3E700B6FF00 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDC9F302975E3E700B6FF00 /* UserDetailsView.swift */; };
+		CCDC9F332975E47A00B6FF00 /* FollowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDC9F322975E47A00B6FF00 /* FollowsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CC24D7A12975A8DC0002ED9C /* UserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
 		CC4A277F2975D4B6009A0C08 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		CC4A27812975D4D4009A0C08 /* services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = services.swift; sourceTree = "<group>"; };
+		CCDC9F302975E3E700B6FF00 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		CCDC9F322975E47A00B6FF00 /* FollowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				CC24D7A12975A8DC0002ED9C /* UserObject.swift */,
 				CC4A277F2975D4B6009A0C08 /* UserModel.swift */,
 				CC4A27812975D4D4009A0C08 /* services.swift */,
+				CCDC9F302975E3E700B6FF00 /* UserDetailsView.swift */,
+				CCDC9F322975E47A00B6FF00 /* FollowsView.swift */,
 			);
 			path = SearchApp;
 			sourceTree = "<group>";
@@ -147,9 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC4A27822975D4D4009A0C08 /* services.swift in Sources */,
+				CCDC9F332975E47A00B6FF00 /* FollowsView.swift in Sources */,
 				CC24D7962975987A0002ED9C /* ContentView.swift in Sources */,
 				CC24D7942975987A0002ED9C /* SearchAppApp.swift in Sources */,
 				CC4A27802975D4B6009A0C08 /* UserModel.swift in Sources */,
+				CCDC9F312975E3E700B6FF00 /* UserDetailsView.swift in Sources */,
 				CC24D7A22975A8DC0002ED9C /* UserObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
